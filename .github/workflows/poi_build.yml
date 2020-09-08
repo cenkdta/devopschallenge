@@ -8,7 +8,7 @@ on:
   push:
     branches: [ master ]
     paths:
-      - "apis/poi*"
+      - "apis/poi/**"
   pull_request:
     branches: [ master ]
 
