@@ -27,4 +27,4 @@ jobs:
         with:
           dotnet-version: '2.1'
       - name: TEst
-        run: dotnet test
+        run: dotnet test apis/poi
