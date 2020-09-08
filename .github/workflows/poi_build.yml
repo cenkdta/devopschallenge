@@ -7,8 +7,8 @@ name: poi_build
 on:
   push:
     branches: [ master ]
-    paths:
-      - "apis/poi"
+    # paths:
+    #   - "apis/poi"
   pull_request:
     branches: [ master ]
 
