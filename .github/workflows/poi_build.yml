@@ -24,7 +24,7 @@ jobs:
         
       - name: Setu .NET Core
         uses: actions/setup-dotnet@v1
-          with:
-            dotnet-version: '2.1'
+        with:
+          dotnet-version: '2.1'
       - name: TEst
         run: dotnet test
